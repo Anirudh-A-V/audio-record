@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.container {
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.record-start {
+  width: 200px;
+  height: 50px;
+  margin: 2rem auto;
+  display: block;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.record-start:hover {
+  background-color: #3e8e41;
+}
+
+.record-stop {
+  width: 200px;
+  height: 50px;
+  margin: 2rem auto;
+  display: block;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+}
+
+.record-stop:hover {
+  background-color: #e53935;
+}
+
+audio {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  background-color: #f2f2f2;
+  color: #000;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.uploading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.uploading p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.recorded-audio {
+  margin-top: 2rem;
+}
+
