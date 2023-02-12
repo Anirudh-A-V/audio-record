@@ -4,12 +4,12 @@ import { getFirestore, serverTimestamp } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA5J9TBDCva_56KWLWcOSxGL6KbqVYkMmk",
-  authDomain: "audio-recorder-2002911.firebaseapp.com",
-  projectId: "audio-recorder-2002911",
-  storageBucket: "audio-recorder-2002911.appspot.com",
-  messagingSenderId: "719837226838",
-  appId: "1:719837226838:web:722c9473caf94d43cb58f7"
+  apiKey: process.env.VITE_FIREBASE_API_KEY,
+  authDomain: process.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
