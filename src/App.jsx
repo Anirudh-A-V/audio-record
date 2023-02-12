@@ -80,8 +80,6 @@ const App = () => {
     });
   };
 
-  const recordedAudio = localStorage.getItem("recordedAudio");
-
   return (
     <main className="container">
       <h1>React Media Recorder</h1>
@@ -103,13 +101,3 @@ const App = () => {
 };
 
 export default App;
-
-
-{/* <div>
-      {recording ? (
-        <button onClick={stopRecording}>Stop Recording</button>
-      ) : (
-        <button onClick={startRecording}>Start Recording</button>
-      )}
-      {audioBlob && <audio controls src={URL.createObjectURL(audioBlob)} />}
-    </div> */}
