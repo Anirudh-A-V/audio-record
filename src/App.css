@@ -60,11 +60,14 @@ h1 {
 
 audio {
   width: 100%;
-  margin-top: 2rem;
   border-radius: 2rem;
   background-color: #f2f2f2;
   color: #000;
   box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.record-audio {
+  margin-top: 2rem;
 }
 
 .uploading {
@@ -75,10 +78,6 @@ audio {
 .uploading p {
   font-size: 1.2rem;
   color: #333;
-}
-
-.recorded-audio {
-  margin-top: 2rem;
 }
 
 .record-upload {
@@ -130,4 +129,32 @@ audio {
 
 .record-resume:hover {
   background-color: #2ed13e;
+}
+
+.recorded-audios h2 {
+  text-align: start;
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  color: #333;
+}
+
+.recorded-audio-list {
+  margin-top: 2rem;
+}
+
+.recorded-audio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.recorded-audio audio {
+  margin: 1rem;
+}
+
+.record-delete {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
